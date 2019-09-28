@@ -1,0 +1,47 @@
+{
+  "name": "kata",
+  "author": "Juan Cruz Vidiri <jcvidiri@gmail.com>",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "tsc; mocha -r ts-node/register ./tests/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcvidiri/kata.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcvidiri/kata/issues"
+  },
+  "homepage": "https://github.com/jcvidiri/kata#readme",
+  "devDependencies": {
+    "@types/async": "^2.0.49",
+    "@types/lodash": "^4.14.117",
+    "@types/node": "^8.0.9",
+    "@types/mocha": "^5.2.5",
+    "chai": "^3.5.0",
+    "mocha": "^5.2.0",
+    "snazzy": "^7.0.0",
+    "tslint": "^5.11.0"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "async": "^2.6.1",
+    "axios": "^0.16.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.11",
+    "path": "^0.12.7",
+    "ts-node": "^3.2.0",
+    "typescript": "^2.4.1",
+    "ws": "^6.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "/build"
+    ]
+  }
+}
